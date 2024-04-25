@@ -1,0 +1,68 @@
+*{
+    margin: auto;
+}
+body{
+    background-color: blanchedalmond; 
+}
+
+    header {
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    align-items: center;
+    padding: 50px;
+    background: #2f0494;
+
+    h1{
+    color: white;
+    text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: center;
+    }
+    }
+
+    .container{        
+        margin-left: 5%;
+    h1{
+        text-align: center;
+        }
+    h1:hover{
+        color: red;
+
+    }
+    }
+
+
+    .card{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+       }
+
+
+    button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+    a{
+        color: white;
+    }
+      }
+      a {
+        text-decoration: none;
+        font-size: 22px;
+        color: rgb(25, 73, 175);
+      }
+      
+      button:hover, a:hover {
+        opacity: 0.7;
+      }
